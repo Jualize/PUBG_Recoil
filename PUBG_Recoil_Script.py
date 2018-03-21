@@ -2,7 +2,7 @@ import psutil
 
 print(psutil.pids()) # Print all pids
 
-p = psutil.Process(1245)  # The pid of desired process
+p = psutil.Process(1245)  # The pid of desired process PUBG 11772 BattleEye 248
 print(p.name()) # If the name is "python.exe" is called by python
 print(p.cmdline()) # Is the command line this process has been called with
 
